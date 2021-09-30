@@ -15,31 +15,15 @@ You can install the package via composer:
 composer require astrogoat/katapult
 ```
 
-You can publish and run the migrations with:
-
-```bash
-php artisan vendor:publish --provider="Astrogoat\Katapult\KatapultServiceProvider" --tag="katapult-migrations"
-php artisan migrate
-```
-
-You can publish the config file with:
-```bash
-php artisan vendor:publish --provider="Astrogoat\Katapult\KatapultServiceProvider" --tag="katapult-config"
-```
-
-This is the contents of the published config file:
-
-```php
-return [
-];
-```
-
 ## Usage
 
-```php
-$katapult = new Astrogoat\Katapult();
-echo $katapult->echoPhrase('Hello, Astrogoat!');
-```
+When enabled this will add the Katapult javascript to the footer. You now have access to Katapult's Javascript object. 
+
+`katapult.preapprove()`
+
+See [Katapult documentation](https://docs.katapult.com/docs) for more info.
+
+
 
 ## Testing
 

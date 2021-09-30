@@ -8,7 +8,7 @@ class CreateKatapultSettings extends SettingsMigration
     {
         $this->migrator->add('katapult.enabled', false);
         $this->migrator->add('katapult.public_key', '');
-        $this->migrator->add('katapult.environment', 'https://www.zibby.com');
+        $this->migrator->add('katapult.environment', 'https://sandbox.katapult.com');
     }
 
     public function down()
