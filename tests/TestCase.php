@@ -2,9 +2,9 @@
 
 namespace Astrogoat\Katapult\Tests;
 
+use Astrogoat\Katapult\KatapultServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Astrogoat\Katapult\KatapultServiceProvider;
 
 class TestCase extends Orchestra
 {
