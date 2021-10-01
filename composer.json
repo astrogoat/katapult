@@ -31,7 +31,7 @@
     ],
     "require": {
         "php": "^8.0",
-        "helix/lego": "dev-develop",
+        "astrogoat/stratum": "dev-develop",
         "illuminate/contracts": "^8.37",
         "spatie/laravel-package-tools": "^1.4.3"
     },
