@@ -17,14 +17,6 @@
     ],
     "repositories": [
         {
-            "type": "path",
-            "url": "/Users/tonning/Code/packages/helixsleep/duplo"
-        },
-        {
-            "type": "path",
-            "url": "/Users/tonning/Code/packages/helixsleep/fabrick"
-        },
-        {
             "type": "composer",
             "url": "https://packages.hlx.dev"
         }

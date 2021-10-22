@@ -14,8 +14,12 @@ composer require astrogoat/katapult
 ```
 
 ## Usage
+Add the include to your Blade view where you need it
+```php
+@include('katapult::script')
+```
 
-When enabled this will add the Katapult javascript to the footer. You now have access to Katapult's Javascript object. 
+When enabled this will add the Katapult javascript. You now have access to Katapult's Javascript object. 
 
 `katapult.preapprove()`
 
