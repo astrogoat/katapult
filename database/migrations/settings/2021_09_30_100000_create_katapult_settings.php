@@ -8,6 +8,7 @@ class CreateKatapultSettings extends SettingsMigration
     {
         $this->migrator->add('katapult.enabled', false);
         $this->migrator->add('katapult.public_key', '');
+        $this->migrator->add('katapult.private_key', '');
         $this->migrator->add('katapult.environment', 'https://sandbox.katapult.com');
     }
 
@@ -16,5 +17,6 @@ class CreateKatapultSettings extends SettingsMigration
         $this->migrator->delete('katapult.enabled');
         $this->migrator->delete('katapult.public_key');
         $this->migrator->delete('katapult.environment');
+        $this->migrator->delete('katapult.private_key');
     }
 }
