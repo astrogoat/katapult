@@ -1,4 +1,4 @@
-# Katapult app for Stratum CMS
+# Katapult app for Strata CMS
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/astrogoat/katapult.svg?style=flat-square)](https://packagist.org/packages/astrogoat/katapult)
 [![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/astrogoat/katapult/run-tests?label=tests)](https://github.com/astrogoat/katapult/actions?query=workflow%3Arun-tests+branch%3Amain)
