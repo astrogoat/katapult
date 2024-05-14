@@ -47,7 +47,7 @@ Please review [our security policy](../../security/policy) on how to report secu
 
 ## Credits
 
-- [Kristoffer Tonning](https://github.com/tonning)
+- [Laura Tonning](https://github.com/tonning)
 - [All Contributors](../../contributors)
 
 This katapult package is forked from the awesome [Spatie katapult package](https://github.com/spatie/package-katapult-laravel#support-us). Please go support them if you can.
